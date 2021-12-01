@@ -1,5 +1,5 @@
 .promo {
-    min-height: 100vh;
+    min-height: 502px;
     position: relative;
     background: url('../img/bg.png') no-repeat 50%/cover;
     padding-top: 205px;
@@ -13,9 +13,13 @@
         align-items: center;
         justify-content: space-between;
         width: 250px;
+        a {
+            text-align: center;
+        }
+        
     }
     &__link {
-        color: $w-color;
+        color: $w-color;        
         font-weight: bold;
         text-decoration: none;
         &:hover {
